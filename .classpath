@@ -20,7 +20,11 @@
 	<classpathentry kind="lib" path="libs/controlsfx-8.40.14.jar"/>
 	<classpathentry kind="lib" path="libs/dom4j-2.1.1.jar"/>
 	<classpathentry kind="lib" path="libs/hibernate-commons-annotations-5.0.4.Final.jar"/>
-	<classpathentry kind="lib" path="libs/hibernate-core-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-core-5.3.7.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="libs/hibernate-jpamodelgen-5.3.7.Final.jar"/>
 	<classpathentry kind="lib" path="libs/hibernate-validator-5.3.6.Final.jar"/>
 	<classpathentry kind="lib" path="libs/jandex-2.0.5.Final.jar"/>
